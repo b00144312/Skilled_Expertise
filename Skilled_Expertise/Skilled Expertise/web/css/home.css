@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e81f296eca8656d4cc7f9ac/1625218190083-45ABEW5ZJG5BIZRCS5O6/SwiftGym036_sr.jpg?format=2500w)
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(28, 35, 49, 1);
+  color: white;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+    margin-left: 5px;
+}
+.name a{
+        color: white;
+    text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgb(244, 208, 63);
+    color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.left-box {
+  flex: 3;
+  padding: 40px;
+  background-color: rgb(244, 208, 63, 0.8);
+  color: rgb(28, 35, 49, 1);
+    border: solid black 3px;
+}
+
+.left-box img{
+    justify-content: center;
+  align-items: center;
+        border: solid black 3px;
+}
+
+.right-box {
+  flex: 1;
+  padding: 40px;
+  background-color: rgb(28, 35, 49, 0.8);
+  color: white;
+    margin: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+        border: solid black 3px;
+}
+
+.right-box a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.right-box a:hover {
+  background-color: #f4d03f;
+        color: black;
+
+}
+.left-box p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    padding: 20px;
+}
+h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+h1{
+    font-size: 40px;
+}
+.button a{
+    
+    text-align: center;
+    text-decoration: none;
+    color: rgb(28, 35, 49, 0.8);
+    font-size: 25px;
+    margin: 0px;
+}
+.button a:hover{
+    color: white;
+}
+.section{
+      background-color: rgb(28, 35, 49, 1);
+    padding: 40px;
+  color: white;
+    margin-bottom: 60px;
+    margin-left: 30em;
+        border: solid black 3px;
+    
+}
+.section p{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+.jump a{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(28, 35, 49, 1);;
+  color: white;
+    text-decoration: none;
+}
+.jump a:hover{
+    color: #f4d03f;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(28, 35, 49, 1);
+  color: white;
+}
